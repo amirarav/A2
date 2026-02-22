@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 2</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 2</small>
+			Exploratory Data Analysis
+		</h1>
+
+		<p>
+			<strong>Amira Ravshanova</strong> — <em>amirarav@mit.edu</em>
+		</p>
+	</header>
+	<main>
+		<section>
+			<h2>Subtheme: Transit-Oriented Development</h2>
+
+			<h3>Overall Analysis Questions</h3>
+			<ol>
+				<li>How has corporate ownership changed in Boston neighborhoods between 2004 and 2024?</li>
+				<li>How are corporate ownership rates related to owner occupancy rates across neighborhoods?</li>
+				<li>Which neighborhoods appear most affected by increases in corporate ownership?</li>
+			</ol>
+		</section>
+
+		<section>
+			<h2>Discoveries & Insights</h2>
+
+			<figure>
+				<img src="corp_trend.png" alt="" />
+				<figcaption>
+				Corporate ownership in Boston has steadily increased between 2004 and 2024. The rise becomes especially noticeable after 2018 and then even more so after COVID, showing that there's growing investor activity in the housing market. To better understand this trend, it is useful to examine how ownership differs by neighborhood.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="corp_bar.png" alt="" />
+				<figcaption>
+				Corporate ownership varies a lot between different Boston neighborhoods in 2024. Areas such as South Boston Waterfront, Fenway, and Downtown show much higher rates compared to more residential neighborhoods, which makes sense considering all of the offices and businesses there. These differences raise questions about how ownership has evolved locally over time.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="corp_heat.png" alt="" />
+				<figcaption>
+				Across most neighborhoods, corporate ownership gradually increases throughout the twenty-year period. Some neighborhoods experience faster growth, which suggests stronger investment pressure. The consistent upward pattern shows that the change is widespread which may also influence whether residents continue to live in homes they own.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="owner_trend.png" alt="" />
+				<figcaption>
+				While corporate ownership rises, owner occupancy slowly declines across Boston. This might mean that fewer housing units are occupied by their owners compared to earlier periods. Comparing neighborhoods can help show where this decline is most visible.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="owner_bar.png" alt="" />
+				<figcaption>
+				Owner occupancy remains highest in neighborhoods such as West Roxbury and Roslindale. In contrast, areas with stronger rental markets show noticeably lower occupancy rates. These patterns often appear opposite to neighborhoods with high corporate ownership, and this relationship points to a possible connection between investor ownership and reduced resident ownership.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="owner_heat.png" alt="" />
+				<figcaption>
+				Many neighborhoods show small but steady decreases in owner occupancy over time. Although the decline is not dramatic, it appears across much of the city. As mentioned before, the decline of owner occupancy seems almost proportional to corporate ownership, which again makes sense. Some residential neighborhoods remain relatively stable, while others change more noticeably.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="vac_2024.png" alt="" />
+				<figcaption>
+				Vacancy levels also differ noticeably across neighborhoods in 2024. Areas such as Dorchester and Roxbury contain higher numbers of vacant units compared to others. These differences may reflect redevelopment activity, housing turnover, or properties temporarily sitting unused.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="race_neigh.png" alt="" />
+				<figcaption>
+				This chart presents the racial composition of Boston neighborhoods in 2024. Considerable demographic variation exists across neighborhoods and while this doesn't directly measure ownership outcomes, demographic context provides important background for interpreting housing patterns. Differences in neighborhood composition can interact with historical housing development, affordability, and investment trends that influence corporate ownership distribution.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="college.png" alt="" />
+				<figcaption>
+				Neighborhoods such as Longwood and Fenway have large student populations due to nearby universities and medical institutions. A strong student presence increases rental demand and reduces long-term residency, and so these neighborhoods are probably more attractive to corporate property owners. Student housing therefore helps explain some ownership differences across the city. Compared to the vacancy visual from earlier, it makes sense that Longwood which is mostly students occupying student housing wouldn't be vacant. "% College" calculated by [College] / [Tot Pop 18Plus] * 100
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="other_inst.png" alt="" />
+				<figcaption>
+				This visualization shows the share of residents living in institutional facilities such as psychiatric hospitals or juvenile detention centers across Boston neighborhoods in 2024. Unlike typical residential housing, these populations live in group quarters that are not part of the standard owner-occupied or rental housing market.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section>
+			<h2>Summary</h2>
+
+			<p>I examined how corporate housing ownership has evolved across Boston neighborhoods between 2004 and 2024 and looked at its connection to owner occupancy patterns. First, I found a substantial and sustained increase in corporate ownership citywide and this growth was unevenly distributed, concentrating mainly in neighborhoods with strong rental demand and institutional presence which is logical. Owner occupancy rates declined modestly, and cross-neighborhood comparisons show an inverse relationship between corporate ownership and resident homeownership. Neighborhoods like Fenway, Longwood, Downtown, and South Boston Waterfront were most affected by increases in corporate ownership, while traditionally residential neighborhoods including West Roxbury and Roslindale stayed comparatively stable. I looked at these next to additional contextual indicators, like student populations and housing vacancy levels.</p>
+		</section>
+	</main>
+</body>
+</html>
